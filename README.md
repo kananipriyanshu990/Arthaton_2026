@@ -132,47 +132,11 @@ Features a dual-mode toggle catering to both offline environments and live AI ge
 
 ## 🗄️ LocalStorage Data Schema
 
-All user records are persisted locally in the browser under the following schema[cite: 2]:
+All user records are persisted locally in the browser.
 
-```json
-{
-  "av_onboarding_done": true,
-  "av_monthly_income": 25000,
-  "av_goals": [
-    {
-      "id": "goal_1710000000000",
-      "name": "Emergency Fund",
-      "emoji": "🛡️",
-      "category": "emergency",
-      "targetAmount": 150000,
-      "targetDate": "2026-12-31",
-      "currentSavings": 35000,
-      "expectedReturn": 8
-    }
-  ],
-  "av_portfolio": [
-    {
-      "id": "inv_1710000000000",
-      "name": "Nifty 50 Index Direct Plan",
-      "type": "Index Fund",
-      "amountInvested": 30000,
-      "dateInvested": "2023-01-15",
-      "expectedReturn": 12,
-      "currentValue": 36800
-    }
-  ],
-  "av_quiz_scores": { "module_1": 5, "module_3": 4 },
-  "av_modules_read": ["module_1", "module_2"],
-  "av_risk_profile": {
-    "score": 28,
-    "category": "Moderately Aggressive",
-    "timestamp": "2026-11-13T10:00:00.000Z"
-  },
-  "av_badges": ["module_1_expert"]
-}
-
-## Regulatory Compliance & Disclaimer
+## ⚖️ Regulatory Compliance & Disclaimer
 
 Artha Vardhan is an educational literacy platform and is not registered with the Securities and Exchange Board of India (SEBI) as an investment advisor or research entity. All financial calculators, asset allocation suggestions, and AI-generated outputs are intended solely for simulation and conceptual learning. Users must consult a certified financial advisor before deploying actual capital into financial markets.
 
-Built for Arthaton 2026 under the AI for Finance hackathon theme
+
+### Built for Arthaton 2026 under the AI for Finance hackathon theme
